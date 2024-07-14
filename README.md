@@ -72,8 +72,8 @@ This project is open-source. Please ensure you have the necessary rights to use 
 - Mehak (2172088)
 
 ## Acknowledgments
-- Mr. Abhishek Nandi (Intel) for guidance and support.
-- Mr. Sumeet Bharti (mentor) for mentorship throughout the project.
+- Mr. Abhishek Nandi Sir(Intel) for guidance and support.
+- Mr. Sumeet Bharti Sir(mentor) for mentorship throughout the project.
 - Thanks to the Hugging Face team for the transformers library and Model Hub.
 - OpenVINO team for the optimization toolkit.
 - Intel for providing the AI hardware and software ecosystem.
