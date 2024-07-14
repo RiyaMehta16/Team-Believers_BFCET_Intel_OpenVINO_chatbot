@@ -1,0 +1,7 @@
+Health-related Chatbot Project:
+ This project creates a chatbot for health-related purposes with the help of a GPT-2 model that was fine-tuned. It reads a CSV file of health questions and answers, trains the model with it, and then optimizes it for a better and faster performance on OpenVINO. The main Python script performs data cleaning, model training, and offers the user an opportunity to chat with the bot. 
+ Thus, to use this project, make sure you have Python 3. 10+ installed. Copy the repository and install the necessary packages with the pip package manager. Before running the main script, please put your ‘intents. csv’ file in the directory of the project. The script will teach the model, make it ready for production with OpenVINO, and then let you use the chatbot via the console. 
+ This project utilizes transformed, datasets, torch, and optimum libraries for training and optimizing the models. This is to enable easy deployment and the model can be extended in other health related uses depending on the need. It is also important to point out that while GPU is not a requirement it can greatly help in the training process if CUDA-capable GPU is available.
+
+Hugging Face Token:
+To work with some functions of the Hugging Face library, it may be necessary to make adjustments and create a secret token. Sign up for an account on hugging face. co, create an API token, and storing the token retrieved in the HUGGINGFACE_TOKEN environment variable. Never push this token to your public repository of the code.
