@@ -48,11 +48,6 @@ This project addresses the challenge of "Running GenAI on Intel AI Laptops and S
 4. Run the chatbot:
    - Use the provided chatbot loop at the end of the script to interact with the model.
 
-Example command to start the chatbot:
-```python
-python untitled4.py
-```
-
 ## Contributing
 Contributions to improve the chatbot or extend its capabilities are welcome. Please follow these steps:
 1. Fork the repository.
