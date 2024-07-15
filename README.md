@@ -1,10 +1,10 @@
 # Health-related Chatbot Project
 
 ## Project Title
-Health-related GPT-2 Fine-tuned Chatbot with Intel® OpenVINO™ Optimization
+Health-related GPT-2 Fine-tuned Chatbot with Intel OpenVINO Optimization
 
 ## Description
-This project addresses the challenge of "Running GenAI on Intel AI Laptops and Simple LLM Inference on CPU and Fine-tuning of LLM Models using Intel® OpenVINO™". It implements a chatbot using a fine-tuned GPT-2 model for health-related conversations, optimized for efficient inference on Intel CPUs. The project includes data preprocessing, model training, and optimization using OpenVINO, designed to understand and respond to health-related queries based on a custom dataset.
+This project caters to the problem statement of “Running GenAI on Intel AI Laptops and Simple LLM Inference on CPU and Fine-tuning of LLM Models using Intel® OpenVINO™”. It incorporates a health-oriented chatbot that is based on a GPT-2 model which is fine-tuned for inference on Intel CPUs. The concept of the project implies data preprocessing, model training and OpenVINO optimization for the search of Health related queries based on a set of heath related data.
 
 ## Installation Instructions
 1. Ensure you have Python 3.x installed.
@@ -39,25 +39,28 @@ This project addresses the challenge of "Running GenAI on Intel AI Laptops and S
    This token is necessary to access and download models from the Hugging Face Model Hub.
 
 ## Usage
-1. Prepare your dataset:
-   - Ensure you have a CSV file named 'intents.csv' with columns 'tag' and 'responses__-'.
+
+1. Prepare the dataset:
+- Make sure you have a CSV file with the name ‘intents (1).csv’ having two columns: ‘tag’ and ‘responses__-’.
 2. Train the model:
-   - Run the script to fine-tune the GPT-2 model on your dataset.
+- Execute the script to train GPT-2 on your data to get a new model.
 3. Optimize the model:
-   - The script includes steps to optimize the model using OpenVINO.
+- This plan also involves procedures on how OpenVINO can be used to fine-tune the model.
 4. Run the chatbot:
-   - Use the provided chatbot loop at the end of the script to interact with the model.
+- At the end of the script, incorporate the following chatbot loop to communicate with the model.
 
 ## Contributing
-Contributions to improve the chatbot or extend its capabilities are welcome. Please follow these steps:
+
+The chatbot could be improved or extended and contributions for these purposes are welcomed. Please follow these steps:
+
 1. Fork the repository.
-2. Create a new branch for your feature.
+2. Develop a new branch in your feature.
 3. Commit your changes.
 4. Push to the branch.
-5. Create a new Pull Request.
+5. Open a new Pull Request.
 
 ## License
-This project is open-source. Please ensure you have the necessary rights to use and distribute the dataset and models.
+This project is open-source. Make sure you have the rights for using and distributing the data set and the models.
 
 ## Authors
 - Riya Mehta (2172100)
@@ -67,9 +70,10 @@ This project is open-source. Please ensure you have the necessary rights to use 
 - Mehak (2172088)
 
 ## Acknowledgments
-- Mr. Abhishek Nandi Sir(Intel) for guidance and support.
-- Mr. Sumeet Bharti Sir(mentor) for mentorship throughout the project.
-- Thanks to the Hugging Face team for the transformers library and Model Hub.
+
+- Special thanks to Mr. Abhishek Nandi Sir(Intel) for his support and guidance.
+- Mr. Sumeet Bharti Sir(mentor) for his guidance in the entire project.
+- Special thanks to Hugging Face team for the transformers library and Model Hub.
 - OpenVINO team for the optimization toolkit.
-- Intel for providing the AI hardware and software ecosystem.
-- Contributors to the various libraries used in this project.
+- Intel for accommodating the company through the provision of AI hardware and software environment.
+- The authors of the different libraries used throughout the development of this project.
